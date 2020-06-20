@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/vader/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <title>Lesson 21 | JS Core</title>
+</head>
+
+<body>
+    <div id="dialog-form">
+        <p class="validateTips"></p>
+        <form>
+            <fieldset>
+                <label for="name">Ваше ім'я</label>
+                <input type="text" name="name" id="name" class="text ui-widget-content ui-corner-all">
+                <label for="age">Ваш вік</label>
+                <input type="text" name="age" id="age" class="text ui-widget-content ui-corner-all">
+                <label for="date">Дата народження</label>
+                <input type="text" name="date" id="date" class="text ui-widget-content ui-corner-all"><!-- можна добавити параметр "readonly", але формат поля провіряє функція /script.js:88. -->
+                <input type="submit" tabindex="-1">
+            </fieldset>
+        </form>
+    </div>
+
+    <button id="create-user">Додати нового користувача</button>
+    <div id="users-contain" class="ui-widget">
+        <h1>Список користувачів:</h1>
+        <table id="users" class="ui-widget ui-widget-content">
+            <thead>
+                <tr class="ui-widget-list">
+                    <th>Ім'я</th>
+                    <th>Вік</th>
+                    <th>Дата народження</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Юрій</td>
+                    <td>32</td>
+                    <td>00-00-1988</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

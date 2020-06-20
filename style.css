@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #218c74;
+    display: block;
+    width: 100%;
+    height: 100vh;
+}
+
+#users tr td {
+    width: 150px;
+    text-align: center;
+}
+
+fieldset {
+    width: 100%;
+    border: 4px #e0dfdf;
+    border-style: double none none none;
+}
+
+fieldset input {
+    width: 100%;
+    text-align: center;
+}
+
+input[type="submit"] {
+    position: absolute;
+    top: -1000px
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 3.6em;
+    color: #e0dfdf;
+    text-shadow: #4074b5 2px 2px 0px, #4074b5 2px -2px 0px, #4074b5 -2px 2px 0px, #4074b5 -2px -2px 0px, #4074b5 2px 0px 0px, #4074b5 0px 2px 0px, #4074b5 -2px 0px 0px, #4074b5 0px -2px 0px;
+}
+
+.error-text {
+    color: #15ff00;
+    background-color: #ff0000;
+}
+
+.error-input {
+    color: #ff0000;
+    border: 3px #ff0000;
+    border-style: dashed dotted;
+    background: #a2f8f1;
+}
+
+#create-user {
+    margin: 40px 15px;
+    color: #00158f;
+}
+
+.ui-widget-list {
+    background-color: #037e7e;
+}
+
+#users {
+    border-radius: 50px;
+    padding: 25px 15px;
+}
+
+.ui-datepicker {
+    width: 305px;
+    margin: 5px auto 0;
+    font: 12pt Arial, sans-serif;
+    background: #037e7e;
+}
+
+.ui-datepicker table {
+    width: 100%;
+    background-color: #004747;
+}
+
+.ui-dialog-titlebar {
+    background: #037e7e;
+}
+
+.ui-dialog-content {
+    margin: 0;
+    padding: 0;
+}
+
+.ui-widget-overlay {
+    background: #00ffff;
+}
+
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+    background: #008031;
+    color: #fff;
+}
+
+.ui-datepicker-current-day {
+    background: #003b14;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+    border-top: 4px ridge #474747;
+    border-radius: 15px;
+}
